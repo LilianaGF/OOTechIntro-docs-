@@ -25,6 +25,7 @@ Build the solution.
 (Troubleshooting: You may need to add a Reference to System.Windows.Forms)
 Look for the dll file in the bin\Debug folder.
 -------------------------------------------------------------------------------
+
 -------------------------------------------------------------------------------
 How to add a reference/import a DLL file.
 (adding the Towa.dll file to the EWT SWC solution)
@@ -36,10 +37,12 @@ Now you can add the following lines:
 using TowaStandard;
 using TowaInfrastructure;
 -------------------------------------------------------------------------------
+
 #############################################################################
 Netbeans 8.2 (java)
 jar file
 #############################################################################
+
 -------------------------------------------------------------------------------
 How to create a jar file:
 
@@ -63,6 +66,3 @@ Now you can add the following lines:
 import TowaStandard.*;
 import TowaInfrastructure.*;
 -------------------------------------------------------------------------------
-
-
-
