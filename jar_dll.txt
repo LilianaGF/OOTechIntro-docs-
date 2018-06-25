@@ -1,0 +1,68 @@
+#################
+dll and jar files
+#################
+
+############################################################################
+Visual Studio 2017 Community Edition (C#)
+(Dynamic Link Library - dll)
+Library that contains functions ans codes that can be used by nore than one programmer at a time. Once we have created a DLL file, we can ise it in many applications.
+############################################################################
+
+-------------------------------------------------------------------------------
+How to create a DLL file.
+
+Open Visual Studio Community 2017.
+Create a new project.
+Choose Visual C# Class Library (.NET Framework)
+Type the name (Towa)
+Browse the folder for the project.
+Uncheck create git repo.
+Change the name to the Class1.cs file to Towa, and accept rename its references.
+Add the new folders that you need in order to add in them existing elements.
+(TowaInfrastructure, TowaStandard)
+Add the items to the folders.
+Build the solution.
+(Troubleshooting: You may need to add a Reference to System.Windows.Forms)
+Look for the dll file in the bin\Debug folder.
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+How to add a reference/import a DLL file.
+(adding the Towa.dll file to the EWT SWC solution)
+
+Copy the Towa.dll file to your solution folder.
+Right-click to References, click Add Reference…, click Browse option and then click the Browse button.
+Browse the Towa.dll file and click Add. Click OK button.
+Now you can add the following lines:
+using TowaStandard;
+using TowaInfrastructure;
+-------------------------------------------------------------------------------
+#############################################################################
+Netbeans 8.2 (java)
+jar file
+#############################################################################
+-------------------------------------------------------------------------------
+How to create a jar file:
+
+Abrir NetBeans 8.2.
+Create a New Project.
+Choose Java, Java Class Library
+Type the name (Towa) and click Finish.
+Copy the folder that you need, to the src folder.
+(TowaInfrastructure, TowaStandard)
+Right-click to the project, ir a properties, seleccionar Packaging and click OK.
+Clean and build.
+Look for the file in the dist folder.
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+How to add a Towa.jar to the solution:
+
+Copy the Towa.jar file to your solution folder (to the lib folder).
+Right-click to Libraries, click Add JAR/Folder…, browse the Towa.dll file and click Open.
+Now you can add the following lines:
+import TowaStandard.*;
+import TowaInfrastructure.*;
+-------------------------------------------------------------------------------
+
+
+
